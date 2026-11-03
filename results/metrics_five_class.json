@@ -1,0 +1,129 @@
+{
+  "task": "five_class",
+  "n_tweets": 38135,
+  "n_train": 30508,
+  "n_test": 7627,
+  "classes": [
+    "age",
+    "ethnicity",
+    "gender",
+    "not_cyberbullying",
+    "religion"
+  ],
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.9168742624885275,
+      "macro_f1": 0.9116555811679244,
+      "train_s": 3.9
+    },
+    "svm": {
+      "accuracy": 0.9180542808443687,
+      "macro_f1": 0.9128298852952936,
+      "train_s": 5.6
+    },
+    "random_forest": {
+      "accuracy": 0.9045496263275207,
+      "macro_f1": 0.9006787250942582,
+      "train_s": 80.1
+    },
+    "xgboost": {
+      "accuracy": 0.9261832961846073,
+      "macro_f1": 0.9232225779748404,
+      "train_s": 94.0
+    },
+    "lightgbm": {
+      "accuracy": 0.9250032778287662,
+      "macro_f1": 0.9219509549249594,
+      "train_s": 108.7
+    },
+    "ensemble": {
+      "accuracy": 0.9281499934443425,
+      "macro_f1": 0.9247256841869967
+    }
+  },
+  "ensemble_report": {
+    "age": {
+      "precision": 0.9837092731829574,
+      "recall": 0.9824780976220275,
+      "f1-score": 0.9830932999373826,
+      "support": 1598.0
+    },
+    "ethnicity": {
+      "precision": 0.9809084924292297,
+      "recall": 0.9365179132620993,
+      "f1-score": 0.9581993569131833,
+      "support": 1591.0
+    },
+    "gender": {
+      "precision": 0.9366485013623979,
+      "recall": 0.8848133848133848,
+      "f1-score": 0.9099933818663137,
+      "support": 1554.0
+    },
+    "not_cyberbullying": {
+      "precision": 0.7780898876404494,
+      "recall": 0.8615863141524106,
+      "f1-score": 0.8177121771217712,
+      "support": 1286.0
+    },
+    "religion": {
+      "precision": 0.9481481481481482,
+      "recall": 0.9612015018773467,
+      "f1-score": 0.9546302050963331,
+      "support": 1598.0
+    },
+    "accuracy": 0.9281499934443425,
+    "macro avg": {
+      "precision": 0.9255008605526364,
+      "recall": 0.9253194423454538,
+      "f1-score": 0.9247256841869967,
+      "support": 7627.0
+    },
+    "weighted avg": {
+      "precision": 0.9314158827015596,
+      "recall": 0.9281499934443425,
+      "f1-score": 0.9291575866122462,
+      "support": 7627.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1570,
+      2,
+      2,
+      24,
+      0
+    ],
+    [
+      2,
+      1490,
+      17,
+      77,
+      5
+    ],
+    [
+      0,
+      6,
+      1375,
+      166,
+      7
+    ],
+    [
+      24,
+      17,
+      65,
+      1108,
+      72
+    ],
+    [
+      0,
+      4,
+      9,
+      49,
+      1536
+    ]
+  ],
+  "timing": {
+    "features_s": 31.6
+  }
+}
