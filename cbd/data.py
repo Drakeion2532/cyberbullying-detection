@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/cyberbullying-detection · MIT licence · sp2532-f30cd46f33af
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Load and split the public cyberbullying tweet dataset.
 
 Dataset: 47,692 tweets labelled religion, age, gender, ethnicity, other_cyberbullying

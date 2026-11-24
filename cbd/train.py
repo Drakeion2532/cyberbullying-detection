@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/cyberbullying-detection · MIT licence · sp2532-f30cd46f33af
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Train the five models and the soft-voting ensemble, evaluate on a held-out 20%.
 
     python -m cbd.train                 # five-class task (default)

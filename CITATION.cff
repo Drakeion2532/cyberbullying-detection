@@ -9,10 +9,6 @@ authors:
 repository-code: "https://github.com/Drakeion2532/cyberbullying-detection"
 license: MIT
 date-released: "2026-11-03"
-identifiers:
-  - type: other
-    value: "sp2532-f30cd46f33af"
-    description: "Project identifier"
 references:
   - type: conference-paper
     title: "Multi-Model Ensemble Approach for Enhanced Cyberbullying Detection Across Diverse Categories"

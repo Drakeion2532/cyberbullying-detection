@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/cyberbullying-detection · MIT licence · sp2532-f30cd46f33af
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Streamlit app: paste a message, see the category, confidence and each model's vote.
 
     streamlit run app.py
